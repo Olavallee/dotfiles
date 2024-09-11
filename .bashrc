@@ -3,6 +3,9 @@
 #
 
 # If not running interactively, don't do anything
+
+export PATH=$PATH:~/bin
+
 [[ $- != *i* ]] && return
 
 alias ls='ls --color=auto'
