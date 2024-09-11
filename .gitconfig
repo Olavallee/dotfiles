@@ -1,0 +1,6 @@
+[user]
+	email = lavallee.olivier@hotmail.com
+	name = Olivier L
+	username = reivlo
+[core]
+	editor = nvim
