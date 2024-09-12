@@ -31,8 +31,11 @@ cp -r /tmp/dotfiles/alacritty ~/.config/alacritty
 # Remplace .bashrc par celui du repo git
 cp /tmp/dotfiles/.bashrc ~/.bashrc
 
+# ajout du background dans image
+cp -r /tmp/dotfiles/background ~/Image/background
+
 source ~/.bashrc
 
 echo "Configuration terminee."
 
-sudo rm -rf ~/tmp/dotfilest
+sudo rm -rf ~/tmp/dotfiles
