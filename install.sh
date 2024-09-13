@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir cst
+mkdir ~/cst
 cd cst
 mkdir bin cegep projets
 
@@ -28,4 +28,4 @@ source ~/.bashrc
 
 echo "Configuration terminee."
 
-sudo rm -rf ~/tmp/dotfiles
+#sudo rm -rf ~/tmp/dotfiles
