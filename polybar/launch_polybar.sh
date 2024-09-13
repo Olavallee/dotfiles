@@ -1,7 +1,9 @@
-if type "xrandr"; then
+#!/bin/bash
+
+if type "xrandr" > /dev/null 2>&1; then
   for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-    MONITOR=$m polybar --reload toph &
+    MONITOR=$m polybar --config~/dotfiles/polybar/config.ini --reload toph &
   done
 else
-  polybar --reload toph &
+  polybar --config=~/dotfiles/polybar/config.ini --reload toph &
 fi
